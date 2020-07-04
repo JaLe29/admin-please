@@ -15,6 +15,20 @@ const config = {
 			pathname: '/logs'
 		}
 	],
+	dashboard: {
+		usersToday: {
+			component: 'numberWidget',
+		},
+		usersTotal: {
+			component: 'numberWidget',
+		},
+		sessionsToday: {
+			component: 'numberWidget',
+		},
+		sessionsTotal: {
+			component: 'numberWidget',
+		}
+	},
 	pages: {
 		users: {
 			dataProviderKey: 'users',

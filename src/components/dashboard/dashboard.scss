@@ -1,0 +1,17 @@
+.actionHeader {
+	border: 1px solid #f0f0f0;
+	padding: 1em;
+	margin: 0 0 1em 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dashboard {
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+	.card {
+		margin: 0.5em;
+	}
+}

@@ -47,7 +47,6 @@ const List = ({ dataDefinition, dataProviderKey, actions, }: IProps) => {
 
 	return (
 		<>
-
 			<div className={css.actionHeader}>
 				<div>
 					<Button
@@ -64,7 +63,6 @@ const List = ({ dataDefinition, dataProviderKey, actions, }: IProps) => {
 					</Link>
 				)}
 			</div>
-
 
 			<Table
 				loading={isLoading}

@@ -7,6 +7,7 @@ import { capitalize } from 'utils/string'
 import { Alert } from 'antd'
 import Form from 'components/form'
 import HeaderMenu from 'components/header-menu'
+import Dashboard from 'components/dashboard'
 
 const Router = () => {
 	const pageKeys = Object.keys(config.pages)
@@ -54,6 +55,12 @@ const Router = () => {
 						/>
 					))
 				}
+				<Route route='/' render={() => (
+					<PageWrapper type='clear' title={'Dashboard'}>
+						<Dashboard />
+					</PageWrapper>
+				)} />
+
 				<Route render={() => (
 					<PageWrapper>
 						<Alert
